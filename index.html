@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/js/bootstrap.min.css"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999 ">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Madrasah Irsyad Zuhri</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li> <a href="#campus_life">Campus Life</a></li>
+                <li> <a href="#achievements">Achievements</a></li>
+                <li> <a href="#new">What's New?</a></li>
+                <li> <a href="#Alumni">Alumni</a></li>
+                <li> <a href="#contactUs">Contact Us</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="announcement">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            Feel free to ask queries on thisisdefinitelyarealemailh@gmail.com
+        </marquee>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/c2_U0lhbsW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <div class="container">
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+            <h2 class="text-capitalize">Contact Us</h2>
+        </div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.722210103734!2d103.85014061475394!3d1.34306839902044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da176c5e6b8ff7%3A0x9d6efeece3bc7104!2sMadrasah%20Irsyad%20Zuhri%20Al-Islamiah!5e0!3m2!1sen!2ssg!4v1629972180157!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="details">
+            <img src="data:image/jpeg;base64,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" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>Principal Name</h3>
+            <h5>Mr Noor Isham Sanif</h5>
+            <div class="contact_1" id="contact_1">
+                <a href="mailto:arealemail@gmail.com/Subject-hi">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;arealemail@gmail.com</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;ArealinstagramID</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;+65 12345678</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
